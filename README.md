@@ -5,6 +5,12 @@ Fourth project of the Robotics Software Engineer Nanodegree.
 
 Fourth project in wich we have the aim to create a 2D occupancy grid and 3D octomap from a simulated environment using our previous robot with the RTAB-Map package. 
 
+# Prerequisites
+Since RTAB-Map Pacakge will be used, the package must be installed (https://github.com/introlab/rtabmap_ros)
+```
+$ sudo apt-get install ros-kinetic-rtabmap-ros
+```
+
 # Working area
 
 For this project my_world is the same as the previous one used in RoboticsND-Where-Am-I project.
@@ -72,6 +78,7 @@ The my_robot.xacro file needs an extra code in camera section.
     </sensor>
   </gazebo>
  ```
- 
+ # Launch
+
   
   
