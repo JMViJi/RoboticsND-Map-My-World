@@ -61,7 +61,7 @@
     </light>
     <gui fullscreen='0'>
       <camera name='world_camera'>
-        <pose frame=''>26.1039 -26.3216 22.7173 0 0.634246 2.05606</pose>
+        <pose frame=''>7.74653 -13.7782 23.6634 -0 1.03025 2.48806</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -165,45 +165,15 @@
       <pose frame=''>-2.4584 0.549622 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>229 909000000</sim_time>
-      <real_time>63 791205247</real_time>
-      <wall_time>1619848371 58482308</wall_time>
-      <iterations>59916</iterations>
-      <model name='asphalt_plane'>
-        <pose frame=''>-10.0528 -2.46233 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-10.0528 -2.46233 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='asphalt_plane_clone'>
-        <pose frame=''>10.0087 -2.38602 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>10.0087 -2.38602 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
+      <sim_time>434 816000000</sim_time>
+      <real_time>227 145712043</real_time>
+      <wall_time>1622046417 245571392</wall_time>
+      <iterations>204907</iterations>
       <model name='cafe_table'>
         <pose frame=''>-4.2074 -1.58292 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
           <pose frame=''>-4.2074 -1.58292 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='cafe_table_clone'>
-        <pose frame=''>-3.26543 -1.58092 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-3.26543 -1.58092 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -219,31 +189,11 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cafe_table_clone_1'>
-        <pose frame=''>-3.39637 -4.10607 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-3.39637 -4.10607 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='cafe_table_clone_10'>
-        <pose frame=''>0.778846 -6.15316 0 0 -0 0</pose>
+        <pose frame=''>0.281491 -6.8654 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.778846 -6.15316 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='cafe_table_clone_11'>
-        <pose frame=''>3.44216 -6.10954 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>3.44216 -6.10954 0 0 -0 0</pose>
+          <pose frame=''>0.281491 -6.8654 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -269,16 +219,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cafe_table_clone_14'>
-        <pose frame=''>3.34578 -4.08924 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>3.34578 -4.08924 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='cafe_table_clone_15'>
         <pose frame=''>4.31773 -1.60414 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -289,61 +229,41 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cafe_table_clone_16'>
-        <pose frame=''>3.40234 -1.60115 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>3.40234 -1.60115 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='cafe_table_clone_17'>
-        <pose frame=''>0.791786 -1.70974 0 0 -0 0</pose>
+        <pose frame=''>0.305676 -1.6732 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.791786 -1.70974 0 0 -0 0</pose>
+          <pose frame=''>0.305676 -1.6732 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='cafe_table_clone_2'>
-        <pose frame=''>-1.15471 -4.09492 0 0 -0 0</pose>
+        <pose frame=''>-0.753128 -4.1849 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.15471 -4.09492 0 0 -0 0</pose>
+          <pose frame=''>-0.753128 -4.1849 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='cafe_table_clone_3'>
-        <pose frame=''>0.543968 -4.05305 0 0 -0 0</pose>
+        <pose frame=''>0.299236 -4.19369 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.543968 -4.05305 0 0 -0 0</pose>
+          <pose frame=''>0.299236 -4.19369 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='cafe_table_clone_4'>
-        <pose frame=''>-1.07002 -1.67519 0 0 -0 0</pose>
+        <pose frame=''>-0.627678 -1.65325 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.07002 -1.67519 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='cafe_table_clone_5'>
-        <pose frame=''>-0.144771 -1.6782 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-0.144771 -1.6782 0 0 -0 0</pose>
+          <pose frame=''>-0.627678 -1.65325 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -359,31 +279,11 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cafe_table_clone_7'>
-        <pose frame=''>-3.41309 -5.9483 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-3.41309 -5.9483 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='cafe_table_clone_8'>
-        <pose frame=''>-1.03392 -6.1359 0 0 -0 0</pose>
+        <pose frame=''>-0.662076 -6.89791 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.03392 -6.1359 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='cafe_table_clone_9'>
-        <pose frame=''>-0.126013 -6.12184 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-0.126013 -6.12184 0 0 -0 0</pose>
+          <pose frame=''>-0.662076 -6.89791 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -419,16 +319,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='my_ball'>
-        <pose frame=''>0.474904 -2.17074 0.1 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_0'>
-          <pose frame=''>0.474904 -2.17074 0.1 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='oak_tree'>
         <pose frame=''>9.06842 8.73859 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -440,73 +330,53 @@
         </link>
       </model>
       <model name='person_standing'>
-        <pose frame=''>-2.1988 -0.276627 0 1e-06 1e-06 3.13561</pose>
+        <pose frame=''>-2.199 -0.27663 0 -1e-06 1e-06 3.13364</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-2.1988 -0.276627 0 1e-06 1e-06 3.13561</pose>
+          <pose frame=''>-2.199 -0.27663 0 -1e-06 1e-06 3.13364</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-1.60679 1.14472 -1.49374 1.92524 -1.45882 -3.09673</acceleration>
-          <wrench>-128.543 91.5776 -119.499 0 -0 0</wrench>
+          <acceleration>2.20766 1.4935 1.42045 1.46069 0.891677 -2.93192</acceleration>
+          <wrench>176.613 119.48 113.636 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_standing_0'>
-        <pose frame=''>2.29935 6.47816 0 -0 1e-06 -0.000156</pose>
+        <pose frame=''>2.29935 6.47816 0 0 1e-06 -0.000155</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.29935 6.47816 0 -0 1e-06 -0.000156</pose>
+          <pose frame=''>2.29935 6.47816 0 0 1e-06 -0.000155</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.60269 1.12703 -1.55087 1.94354 1.46278 3.09703</acceleration>
-          <wrench>128.215 90.1626 -124.07 0 -0 0</wrench>
+          <acceleration>-2.20204 -1.53279 1.49927 -1.46703 -0.862004 -3.07594</acceleration>
+          <wrench>-176.164 -122.623 119.942 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_standing_0_clone'>
-        <pose frame=''>-2.21288 1.37978 0 -1e-06 1e-06 -0.000438</pose>
+        <pose frame=''>-2.21297 1.37979 0 -1e-06 1e-06 0.00043</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-2.21288 1.37978 0 -1e-06 1e-06 -0.000438</pose>
+          <pose frame=''>-2.21297 1.37979 0 -1e-06 1e-06 0.00043</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-2.1776 -1.51721 1.37386 -1.49251 -0.885527 -3.09572</acceleration>
-          <wrench>-174.208 -121.377 109.909 0 -0 0</wrench>
+          <acceleration>-2.25112 -1.5722 1.76015 -1.43536 -0.807914 -3.10114</acceleration>
+          <wrench>-180.09 -125.776 140.812 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_standing_0_clone_0'>
-        <pose frame=''>-4.18897 3.17496 0 1e-06 1e-06 0.00017</pose>
+        <pose frame=''>-4.18877 3.17496 0 -0 1e-06 -0.00183</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-4.18897 3.17496 0 1e-06 1e-06 0.00017</pose>
+          <pose frame=''>-4.18877 3.17496 0 -0 1e-06 -0.00183</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.60997 -1.13212 -1.5135 -1.93816 1.45517 -3.09681</acceleration>
-          <wrench>128.798 -90.5697 -121.08 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='person_standing_clone'>
-        <pose frame=''>4.29548 1.83215 0 0 -1e-06 3.13529</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>4.29548 1.83215 0 0 -1e-06 3.13529</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-2.18909 -1.43951 1.39437 -1.47225 -0.868391 2.96805</acceleration>
-          <wrench>-175.127 -115.161 111.549 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='person_walking'>
-        <pose frame=''>2.3793 -2.26621 1e-06 1e-06 -1e-06 0.000655</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>2.3793 -2.26621 1e-06 1e-06 -1e-06 0.000655</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.65751 3.59244 2.70831 -0.537197 1.17564 3.0359</acceleration>
-          <wrench>132.6 287.395 216.665 0 -0 0</wrench>
+          <acceleration>-2.20106 1.53818 1.51037 1.45953 -0.862922 3.07249</acceleration>
+          <wrench>-176.085 123.054 120.829 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_walking_clone'>
-        <pose frame=''>-2.15321 -8.20764 -1e-06 -2e-06 1e-06 0.000933</pose>
+        <pose frame=''>-2.15321 -8.20764 -1e-06 -2e-06 1e-06 -0.000637</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-2.15321 -8.20764 -1e-06 -2e-06 1e-06 0.000933</pose>
+          <pose frame=''>-2.15321 -8.20764 -1e-06 -2e-06 1e-06 -0.000637</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0.974131 2.05754 -2.6006 -2.14623 1.06783 0.106935</acceleration>
-          <wrench>77.9305 164.603 -208.048 0 -0 0</wrench>
+          <acceleration>0.963728 2.02733 -2.70099 -2.11449 1.05588 0.105436</acceleration>
+          <wrench>77.0983 162.186 -216.079 0 -0 0</wrench>
         </link>
       </model>
       <model name='pickup'>
@@ -668,48 +538,48 @@
         </link>
       </model>
       <model name='prius_hybrid'>
-        <pose frame=''>8.25413 -5.72706 0.061641 -2e-06 -0 1.55234</pose>
+        <pose frame=''>8.2507 -5.72505 0.011641 -2e-06 -0 1.55351</pose>
         <scale>1 1 1</scale>
         <link name='chassis'>
-          <pose frame=''>8.25413 -5.72706 0.061641 -2e-06 -0 1.55234</pose>
-          <velocity>-1.7e-05 1e-05 2.1e-05 0 -3e-06 6e-06</velocity>
-          <acceleration>0 0 0 -0.000507 7e-06 -0</acceleration>
-          <wrench>1.5e-05 3e-06 0 0 -0 0</wrench>
+          <pose frame=''>8.2507 -5.72505 0.011641 -2e-06 -0 1.55351</pose>
+          <velocity>-1.4e-05 1e-05 2.1e-05 0 -3e-06 6e-06</velocity>
+          <acceleration>0 0 0 -0.000566 8e-06 -0</acceleration>
+          <wrench>2.1e-05 -1e-06 0 0 -0 0</wrench>
         </link>
         <link name='front_left_wheel'>
-          <pose frame=''>9.67791 -4.99321 0.361646 0.004915 0.003595 1.59344</pose>
-          <velocity>-2.2e-05 1.8e-05 3.2e-05 -5.6e-05 -6.9e-05 0.00066</velocity>
-          <acceleration>0 0 0 0 -0 1e-06</acceleration>
+          <pose frame=''>9.67362 -4.98953 0.311646 -0.007318 0.016414 1.74225</pose>
+          <velocity>-2e-05 1.8e-05 3.2e-05 -5.7e-05 -6.1e-05 0.000785</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='front_right_wheel'>
-          <pose frame=''>9.64986 -6.51295 0.361646 0.007069 0.003538 1.59278</pose>
-          <velocity>-1.4e-05 1.8e-05 3.1e-05 -5.4e-05 -4.3e-05 0.000638</velocity>
+          <pose frame=''>9.64735 -6.5093 0.311646 0.000308 0.015522 1.73188</pose>
+          <velocity>-1.1e-05 1.8e-05 3.1e-05 -5.6e-05 -3.4e-05 0.000709</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='rear_axle'>
-          <pose frame=''>6.80437 -5.7003 0.361637 -2e-06 -4e-06 1.55234</pose>
-          <velocity>-1.8e-05 2e-06 1.5e-05 4e-06 -4e-06 6e-06</velocity>
-          <acceleration>0 0 0 -0.021461 -0.021021 -0</acceleration>
+          <pose frame=''>6.80091 -5.69998 0.311637 -2e-06 -4e-06 1.55351</pose>
+          <velocity>-1.5e-05 1e-06 1.5e-05 4e-06 -4e-06 6e-06</velocity>
+          <acceleration>0 0 0 -0.021408 -0.019683 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='rear_left_wheel'>
-          <pose frame=''>6.81888 -4.91443 0.361647 -0.005081 -3e-06 1.55234</pose>
-          <velocity>-2.2e-05 1e-06 2.5e-05 -0 -7.1e-05 6e-06</velocity>
+          <pose frame=''>6.8145 -4.9141 0.311647 -0.019033 -3e-06 1.55351</pose>
+          <velocity>-2e-05 1e-06 2.5e-05 -0 -6.2e-05 6e-06</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='rear_right_wheel'>
-          <pose frame=''>6.78987 -6.48616 0.361647 -0.003508 8e-06 1.55234</pose>
-          <velocity>-1.4e-05 2e-06 2.5e-05 -3e-06 -4.4e-05 5e-06</velocity>
+          <pose frame=''>6.78733 -6.48587 0.311647 -0.011623 8e-06 1.55351</pose>
+          <velocity>-1.1e-05 2e-06 2.5e-05 -3e-06 -3.4e-05 6e-06</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='steering_wheel'>
-          <pose frame=''>8.88804 -5.38179 1.04832 -1.13037 0.898507 1.90569</pose>
-          <velocity>-2.5e-05 -5e-06 1e-05 -0.010663 0.000194 0.002943</velocity>
-          <acceleration>0 0 0 -0.013884 0.000255 0.000473</acceleration>
+          <pose frame=''>8.88409 -5.38018 0.997957 -0.048366 1.3017 3.07423</pose>
+          <velocity>-1.9e-05 1.3e-05 2.3e-05 -0.000243 1e-06 7.3e-05</velocity>
+          <acceleration>0 0 0 -0.000315 5e-06 1.1e-05</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
@@ -3726,84 +3596,6 @@
       </link>
       <static>1</static>
     </model>
-    <model name='cafe_table_clone'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-3.26543 -1.58092 0 0 -0 0</pose>
-    </model>
     <model name='cafe_table_clone_0'>
       <static>1</static>
       <link name='link'>
@@ -3881,84 +3673,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>-4.31517 -4.11465 0 0 -0 0</pose>
-    </model>
-    <model name='cafe_table_clone_1'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-3.39637 -4.10607 0 0 -0 0</pose>
     </model>
     <model name='cafe_table_clone_2'>
       <static>1</static>
@@ -4194,84 +3908,6 @@
       </link>
       <pose frame=''>-1.07002 -1.67519 0 0 -0 0</pose>
     </model>
-    <model name='cafe_table_clone_5'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-0.144771 -1.6782 0 0 -0 0</pose>
-    </model>
     <model name='cafe_table_clone_6'>
       <static>1</static>
       <link name='link'>
@@ -4349,84 +3985,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>-4.38595 -5.97036 0 0 -0 0</pose>
-    </model>
-    <model name='cafe_table_clone_7'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-3.41309 -5.9483 0 0 -0 0</pose>
     </model>
     <model name='cafe_table_clone_8'>
       <static>1</static>
@@ -4506,84 +4064,6 @@
       </link>
       <pose frame=''>-1.03392 -6.1359 0 0 -0 0</pose>
     </model>
-    <model name='cafe_table_clone_9'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-0.126013 -6.12184 0 0 -0 0</pose>
-    </model>
     <model name='cafe_table_clone_10'>
       <static>1</static>
       <link name='link'>
@@ -4661,84 +4141,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>0.778846 -6.15316 0 0 -0 0</pose>
-    </model>
-    <model name='cafe_table_clone_11'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>3.44216 -6.10954 0 0 -0 0</pose>
     </model>
     <model name='cafe_table_clone_12'>
       <static>1</static>
@@ -4896,84 +4298,6 @@
       </link>
       <pose frame=''>4.30201 -4.12075 0 0 -0 0</pose>
     </model>
-    <model name='cafe_table_clone_14'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>3.34578 -4.08924 0 0 -0 0</pose>
-    </model>
     <model name='cafe_table_clone_15'>
       <static>1</static>
       <link name='link'>
@@ -5051,84 +4375,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>4.31773 -1.60414 0 0 -0 0</pose>
-    </model>
-    <model name='cafe_table_clone_16'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='surface'>
-          <pose frame=''>0 0 0.755 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.913 0.913 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='column'>
-          <pose frame=''>0 0 0.37 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.042 0.042 0.74</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='base'>
-          <pose frame=''>0 0 0.02 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.56 0.56 0.04</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>3.40234 -1.60115 0 0 -0 0</pose>
     </model>
     <model name='cafe_table_clone_17'>
       <static>1</static>
@@ -6296,75 +5542,6 @@
       </link>
       <pose frame=''>6.77958 4.77908 0 0 -0 0</pose>
     </model>
-    <model name='person_walking'>
-      <link name='link'>
-        <inertial>
-          <pose frame=''>0 0 0.95 0 -0 0</pose>
-          <mass>80</mass>
-          <inertia>
-            <ixx>27.82</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>24.88</iyy>
-            <iyz>0</iyz>
-            <izz>4.57</izz>
-          </inertia>
-        </inertial>
-        <collision name='bottom'>
-          <pose frame=''>0 0 0.01 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.35 0.75 0.02</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='person'>
-          <pose frame=''>0 0 -0.02 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <pose frame=''>0 0 -0.02 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>2.3793 -2.26621 0 0 -0 0</pose>
-    </model>
     <model name='person_standing_0_clone'>
       <link name='link'>
         <inertial>
@@ -6503,75 +5680,6 @@
       </link>
       <pose frame=''>-4.18895 3.17496 0 0 -0 0</pose>
     </model>
-    <model name='person_standing_clone'>
-      <link name='link'>
-        <inertial>
-          <pose frame=''>0 -0.1 0.95 0 -0 0</pose>
-          <mass>80</mass>
-          <inertia>
-            <ixx>24.88</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>25.73</iyy>
-            <iyz>0</iyz>
-            <izz>2.48</izz>
-          </inertia>
-        </inertial>
-        <collision name='bottom'>
-          <pose frame=''>0 -0.1 0.01 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.5 0.35 0.02</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <collision name='person'>
-          <pose frame=''>0 0 0.02 0.04 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://person_standing/meshes/standing.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <pose frame=''>0 0 0.02 0.04 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://person_standing/meshes/standing.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>4.29552 1.83215 0 0 -0 3.13572</pose>
-    </model>
     <model name='person_walking_clone'>
       <link name='link'>
         <inertial>
@@ -6702,210 +5810,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>9.06842 8.73859 0 0 -0 0</pose>
-    </model>
-    <model name='asphalt_plane'>
-      <link name='link'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-        <inertial>
-          <mass>1</mass>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <visual name='visual'>
-          <cast_shadows>0</cast_shadows>
-          <geometry>
-            <box>
-              <size>10 10 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://asphalt_plane/materials/scripts</uri>
-              <uri>model://asphalt_plane/materials/textures</uri>
-              <name>vrc/asphalt</name>
-            </script>
-            <shader type='pixel'>
-              <normal_map>__default__</normal_map>
-            </shader>
-            <ambient>0.5 0.5 0.5 1</ambient>
-            <diffuse>0.5 0.5 0.5 1</diffuse>
-            <specular>0.2 0.2 0.2 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <transparency>0</transparency>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
-          <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>10 10 0.1</size>
-            </box>
-          </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <coefficient>1</coefficient>
-                <patch_radius>0</patch_radius>
-                <surface_radius>0</surface_radius>
-                <use_patch_radius>1</use_patch_radius>
-                <ode>
-                  <slip>0</slip>
-                </ode>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>1e+06</threshold>
-            </bounce>
-            <contact>
-              <collide_without_contact>0</collide_without_contact>
-              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-              <collide_bitmask>1</collide_bitmask>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-                <max_vel>0.01</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-              <bullet>
-                <split_impulse>1</split_impulse>
-                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-              </bullet>
-            </contact>
-          </surface>
-        </collision>
-      </link>
-      <static>1</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-15.125 -6.10386 0 0 -0 0</pose>
-    </model>
-    <model name='asphalt_plane_clone'>
-      <link name='link'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-        <inertial>
-          <mass>1</mass>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <visual name='visual'>
-          <cast_shadows>0</cast_shadows>
-          <geometry>
-            <box>
-              <size>10 10 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://asphalt_plane/materials/scripts</uri>
-              <uri>model://asphalt_plane/materials/textures</uri>
-              <name>vrc/asphalt</name>
-            </script>
-            <shader type='pixel'>
-              <normal_map>__default__</normal_map>
-            </shader>
-            <ambient>0.5 0.5 0.5 1</ambient>
-            <diffuse>0.5 0.5 0.5 1</diffuse>
-            <specular>0.2 0.2 0.2 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <transparency>0</transparency>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
-          <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>10 10 0.1</size>
-            </box>
-          </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <coefficient>1</coefficient>
-                <patch_radius>0</patch_radius>
-                <surface_radius>0</surface_radius>
-                <use_patch_radius>1</use_patch_radius>
-                <ode>
-                  <slip>0</slip>
-                </ode>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>1e+06</threshold>
-            </bounce>
-            <contact>
-              <collide_without_contact>0</collide_without_contact>
-              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-              <collide_bitmask>1</collide_bitmask>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-                <max_vel>0.01</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-              <bullet>
-                <split_impulse>1</split_impulse>
-                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-              </bullet>
-            </contact>
-          </surface>
-        </collision>
-      </link>
-      <static>1</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>10.0087 -2.38602 0 0 -0 0</pose>
     </model>
     <model name='suv'>
       <static>1</static>
@@ -7226,108 +6130,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>13.8936 3.74869 0 0 -0 0</pose>
-    </model>
-    <model name='my_ball'>
-      <link name='link_0'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <inertial>
-          <mass>1</mass>
-          <inertia>
-            <ixx>0.1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.1</iyy>
-            <iyz>0</iyz>
-            <izz>0.1</izz>
-          </inertia>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-        </inertial>
-        <gravity>1</gravity>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <sphere>
-              <radius>0.1</radius>
-            </sphere>
-          </geometry>
-          <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'>
-              <normal_map>__default__</normal_map>
-            </shader>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>1 1 1 1</specular>
-            <emissive>1 1 1 1</emissive>
-          </material>
-          <transparency>0</transparency>
-          <cast_shadows>1</cast_shadows>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
-          <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <sphere>
-              <radius>0.1</radius>
-            </sphere>
-          </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <coefficient>1</coefficient>
-                <patch_radius>0</patch_radius>
-                <surface_radius>0</surface_radius>
-                <use_patch_radius>1</use_patch_radius>
-                <ode>
-                  <slip>0</slip>
-                </ode>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>1e+06</threshold>
-            </bounce>
-            <contact>
-              <collide_without_contact>0</collide_without_contact>
-              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-              <collide_bitmask>1</collide_bitmask>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-                <max_vel>0.01</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-              <bullet>
-                <split_impulse>1</split_impulse>
-                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-              </bullet>
-            </contact>
-          </surface>
-        </collision>
-      </link>
-      <static>0</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>0.474904 -2.17074 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>

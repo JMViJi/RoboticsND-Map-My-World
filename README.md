@@ -80,5 +80,21 @@ The my_robot.xacro file needs an extra code in camera section.
  ```
  # Launch
 
+  1. Launch our Gazebo world and RVIZ
+
+```
+roslaunch my_robot world.launch
+```
   
-  
+  2. Launch teleop node to control robot movement
+   
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
+
+  3. Launch mapping node
+
+```
+roslaunch my_robot mapping.launch
+```
+ # Results

@@ -1,0 +1,100 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 87a898e..43f8eac 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -80,5 +80,21 @@[m [mThe my_robot.xacro file needs an extra code in camera section.[m
+  ```[m
+  # Launch[m
+ [m
+[32m+[m[32m  1. Launch our Gazebo world and RVIZ[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mroslaunch my_robot world.launch[m
+[32m+[m[32m```[m
+   [m
+[31m-  [m
+[32m+[m[32m  2. Launch teleop node to control robot movement[m
+[32m+[m[41m   [m
+[32m+[m[32m```[m
+[32m+[m[32mrosrun teleop_twist_keyboard teleop_twist_keyboard.py[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m  3. Launch mapping node[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mroslaunch my_robot mapping.launch[m
+[32m+[m[32m```[m
+[32m+[m[32m # Results[m
+[1mdiff --git a/src/my_robot/worlds/pizzeria.world b/src/my_robot/worlds/pizzeria.world[m
+[1mindex 2124504..b0e50ef 100644[m
+[1m--- a/src/my_robot/worlds/pizzeria.world[m
+[1m+++ b/src/my_robot/worlds/pizzeria.world[m
+[36m@@ -61,7 +61,7 @@[m
+     </light>[m
+     <gui fullscreen='0'>[m
+       <camera name='world_camera'>[m
+[31m-        <pose frame=''>26.1039 -26.3216 22.7173 0 0.634246 2.05606</pose>[m
+[32m+[m[32m        <pose frame=''>7.74653 -13.7782 23.6634 -0 1.03025 2.48806</pose>[m
+         <view_controller>orbit</view_controller>[m
+         <projection_type>perspective</projection_type>[m
+       </camera>[m
+[36m@@ -165,30 +165,10 @@[m
+       <pose frame=''>-2.4584 0.549622 0 0 -0 0</pose>[m
+     </model>[m
+     <state world_name='default'>[m
+[31m-      <sim_time>229 909000000</sim_time>[m
+[31m-      <real_time>63 791205247</real_time>[m
+[31m-      <wall_time>1619848371 58482308</wall_time>[m
+[31m-      <iterations>59916</iterations>[m
+[31m-      <model name='asphalt_plane'>[m
+[31m-        <pose frame=''>-10.0528 -2.46233 0 0 -0 0</pose>[m
+[31m-        <scale>1 1 1</scale>[m
+[31m-        <link name='link'>[m
+[31m-          <pose frame=''>-10.0528 -2.46233 0 0 -0 0</pose>[m
+[31m-          <velocity>0 0 0 0 -0 0</velocity>[m
+[31m-          <acceleration>0 0 0 0 -0 0</acceleration>[m
+[31m-          <wrench>0 0 0 0 -0 0</wrench>[m
+[31m-        </link>[m
+[31m-      </model>[m
+[31m-      <model name='asphalt_plane_clone'>[m
+[31m-        <pose frame=''>10.0087 -2.38602 0 0 -0 0</pose>[m
+[31m-        <scale>1 1 1</scale>[m
+[31m-        <link name='link'>[m
+[31m-          <pose frame=''>10.0087 -2.38602 0 0 -0 0</pose>[m
+[31m-          <velocity>0 0 0 0 -0 0</velocity>[m
+[31m-          <acceleration>0 0 0 0 -0 0</acceleration>[m
+[31m-          <wrench>0 0 0 0 -0 0</wrench>[m
+[31m-        </link>[m
+[31m-      </model>[m
+[32m+[m[32m      <sim_time>434 816000000</sim_time>[m
+[32m+[m[32m      <real_time>227 145712043</real_time>[m
+[32m+[m[32m      <wall_time>1622046417 245571392</wall_time>[m
+[32m+[m[32m      <iterations>204907</iterations>[m
+       <model name='cafe_table'>[m
+         <pose frame=''>-4.2074 -1.58292 0 0 -0 0</pose>[m
+         <scale>1 1 1</scale>[m
+[36m@@ -199,16 +179,6 @@[m
+           <wrench>0 0 0 0 -0 0</wrench>[m
+         </link>[m
+       </model>[m
+[31m-      <model name='cafe_table_clone'>[m
+[31m-        <pose frame=''>-3.26543 -1.58092 0 0 -0 0</pose>[m
+[31m-        <scale>1 1 1</scale>[m
+[31m-        <link name='link'>[m
+[31m-          <pose frame=''>-3.26543 -1.58092 0 0 -0 0</pose>[m
+[31m-          <velocity>0 0 0 0 -0 0</velocity>[m
+[31m-          <acceleration>0 0 0 0 -0 0</acceleration>[m
+[31m-          <wrench>0 0 0 0 -0 0</wrench>[m
+[31m-        </link>[m
+[31m-      </model>[m
+       <model name='cafe_table_clone_0'>[m
+         <pose frame=''>-4.31517 -4.11465 0 0 -0 0</pose>[m
+         <scale>1 1 1</scale>[m
+[36m@@ -219,31 +189,11 @@[m
+           <wrench>0 0 0 0 -0 0</wrench>[m
+         </link>[m
+       </model>[m
+[31m-      <model name='cafe_table_clone_1'>[m
+[31m-        <pose frame=''>-3.39637 -4.10607 0 0 -0 0</pose>[m
+[31m-        <scale>1 1 1</scale>[m
+[31m-        <
